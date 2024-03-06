@@ -1,0 +1,18 @@
+{
+    "transition": {
+        "id": "31",
+        "name": "Done",
+        "hasScreen": false,
+        "isGlobal": true,
+        "isInitial": false,
+        "isConditional": false,
+        "isLooped": false,
+        "to": {
+            "id": "10004",
+            "name": "Done",
+            "statusCategory": {
+                "id": 3
+            }
+        }
+    }
+}

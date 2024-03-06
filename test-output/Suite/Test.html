@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 09 19:33:28 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>7 seconds (7363 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.framework.jira.tests.rest.TC002_Jira_UpdateTicket.updateJira()'><b>updateJira</b><br>Test class: com.framework.jira.tests.rest.TC002_Jira_UpdateTicket<br>Parameters: .\data\TC002_jira.JSON</td>
+<td></td>
+<td>0</td>
+<td>com.framework.jira.tests.rest.TC002_Jira_UpdateTicket@21a947fe</td></tr>
+<tr>
+<td title='com.framework.jira.tests.rest.TC004_Jira_AddComments.AddComments()'><b>AddComments</b><br>Test class: com.framework.jira.tests.rest.TC004_Jira_AddComments<br>Parameters: .\data\TC004_jira.JSON</td>
+<td></td>
+<td>0</td>
+<td>com.framework.jira.tests.rest.TC004_Jira_AddComments@6c3f5566</td></tr>
+<tr>
+<td title='com.framework.jira.tests.rest.TC006_Jira_DeleteTicket.deleteJira()'><b>deleteJira</b><br>Test class: com.framework.jira.tests.rest.TC006_Jira_DeleteTicket</td>
+<td></td>
+<td>0</td>
+<td>com.framework.jira.tests.rest.TC006_Jira_DeleteTicket@6b67034</td></tr>
+<tr>
+<td title='com.framework.jira.tests.rest.TC001_Jira_CreateTicket.createIncident()'><b>createIncident</b><br>Test class: com.framework.jira.tests.rest.TC001_Jira_CreateTicket<br>Parameters: .\data\TC001_jira.JSON</td>
+<td></td>
+<td>2</td>
+<td>com.framework.jira.tests.rest.TC001_Jira_CreateTicket@1176dcec</td></tr>
+<tr>
+<td title='com.framework.jira.tests.rest.TC003_Jira_UpdateAssignee.AddAssignee()'><b>AddAssignee</b><br>Test class: com.framework.jira.tests.rest.TC003_Jira_UpdateAssignee<br>Parameters: .\data\TC003_jira.JSON</td>
+<td></td>
+<td>0</td>
+<td>com.framework.jira.tests.rest.TC003_Jira_UpdateAssignee@80ec1f8</td></tr>
+<tr>
+<td title='com.framework.jira.tests.rest.TC005_Jira_ChangeStatus.ChangeJiraStatus()'><b>ChangeJiraStatus</b><br>Test class: com.framework.jira.tests.rest.TC005_Jira_ChangeStatus<br>Parameters: .\data\TC005_jira.JSON</td>
+<td></td>
+<td>0</td>
+<td>com.framework.jira.tests.rest.TC005_Jira_ChangeStatus@314c508a</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="10" total="16" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7363" started-at="2024-01-09T19:33:28 IST" finished-at="2024-01-09T19:33:35 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.jira.tests.rest.TC001_Jira_CreateTicket@1176dcec]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.jira.tests.rest.TC002_Jira_UpdateTicket@21a947fe]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.jira.tests.rest.TC003_Jira_UpdateAssignee@80ec1f8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.jira.tests.rest.TC004_Jira_AddComments@6c3f5566]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.jira.tests.rest.TC005_Jira_ChangeStatus@314c508a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.jira.tests.rest.TC006_Jira_DeleteTicket@6b67034]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="7363" started-at="2024-01-09T19:33:28 IST" finished-at="2024-01-09T19:33:35 IST">
+      <class name="com.framework.jira.tests.rest.TC006_Jira_DeleteTicket">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.framework.jira.tests.rest.TC006_Jira_DeleteTicket@6b67034]" name="setValues" is-config="true" duration-ms="0" started-at="2024-01-09T19:33:28 IST" finished-at="2024-01-09T19:33:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.framework.jira.tests.rest.TC006_Jira_DeleteTicket@6b67034]" name="setUpClass" is-config="true" duration-ms="8" started-at="2024-01-09T19:33:34 IST" finished-at="2024-01-09T19:33:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f03fba0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:com.framework.jira.tests.rest.TC006_Jira_DeleteTicket@6b67034]" name="startTestCase" is-config="true" duration-ms="0" started-at="2024-01-09T19:33:34 IST" finished-at="2024-01-09T19:33:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.framework.jira.tests.rest.TC006_Jira_DeleteTicket@6b67034]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2024-01-09T19:33:34 IST" finished-at="2024-01-09T19:33:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="deleteJira()[pri:0, instance:com.framework.jira.tests.rest.TC006_Jira_DeleteTicket@6b67034]" name="deleteJira" duration-ms="902" started-at="2024-01-09T19:33:34 IST" finished-at="2024-01-09T19:33:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteJira -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.framework.jira.tests.rest.TC006_Jira_DeleteTicket@6b67034]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2024-01-09T19:33:35 IST" finished-at="2024-01-09T19:33:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.framework.jira.tests.rest.TC006_Jira_DeleteTicket -->
+      <class name="com.framework.jira.tests.rest.TC004_Jira_AddComments">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.framework.jira.tests.rest.TC004_Jira_AddComments@6c3f5566]" name="setValues" is-config="true" duration-ms="1" started-at="2024-01-09T19:33:28 IST" finished-at="2024-01-09T19:33:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.framework.jira.tests.rest.TC004_Jira_AddComments@6c3f5566]" name="setUpClass" is-config="true" duration-ms="8" started-at="2024-01-09T19:33:33 IST" finished-at="2024-01-09T19:33:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f03fba0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:com.framework.jira.tests.rest.TC004_Jira_AddComments@6c3f5566]" name="startTestCase" is-config="true" duration-ms="0" started-at="2024-01-09T19:33:33 IST" finished-at="2024-01-09T19:33:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.framework.jira.tests.rest.TC004_Jira_AddComments@6c3f5566]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2024-01-09T19:33:33 IST" finished-at="2024-01-09T19:33:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AddComments(java.io.File)[pri:0, instance:com.framework.jira.tests.rest.TC004_Jira_AddComments@6c3f5566]" name="AddComments" duration-ms="664" started-at="2024-01-09T19:33:33 IST" data-provider="fetchData" finished-at="2024-01-09T19:33:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.\data\TC004_jira.JSON]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddComments -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.framework.jira.tests.rest.TC004_Jira_AddComments@6c3f5566]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2024-01-09T19:33:33 IST" finished-at="2024-01-09T19:33:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.framework.jira.tests.rest.TC004_Jira_AddComments -->
+      <class name="com.framework.jira.tests.rest.TC003_Jira_UpdateAssignee">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.framework.jira.tests.rest.TC003_Jira_UpdateAssignee@80ec1f8]" name="setValues" is-config="true" duration-ms="0" started-at="2024-01-09T19:33:28 IST" finished-at="2024-01-09T19:33:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.framework.jira.tests.rest.TC003_Jira_UpdateAssignee@80ec1f8]" name="setUpClass" is-config="true" duration-ms="9" started-at="2024-01-09T19:33:32 IST" finished-at="2024-01-09T19:33:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f03fba0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:com.framework.jira.tests.rest.TC003_Jira_UpdateAssignee@80ec1f8]" name="startTestCase" is-config="true" duration-ms="0" started-at="2024-01-09T19:33:32 IST" finished-at="2024-01-09T19:33:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.framework.jira.tests.rest.TC003_Jira_UpdateAssignee@80ec1f8]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2024-01-09T19:33:32 IST" finished-at="2024-01-09T19:33:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AddAssignee(java.io.File)[pri:0, instance:com.framework.jira.tests.rest.TC003_Jira_UpdateAssignee@80ec1f8]" name="AddAssignee" duration-ms="697" started-at="2024-01-09T19:33:32 IST" data-provider="fetchData" finished-at="2024-01-09T19:33:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.\data\TC003_jira.JSON]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAssignee -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.framework.jira.tests.rest.TC003_Jira_UpdateAssignee@80ec1f8]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2024-01-09T19:33:33 IST" finished-at="2024-01-09T19:33:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.framework.jira.tests.rest.TC003_Jira_UpdateAssignee -->
+      <class name="com.framework.jira.tests.rest.TC001_Jira_CreateTicket">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.framework.jira.tests.rest.TC001_Jira_CreateTicket@1176dcec]" name="startReport" is-config="true" duration-ms="68" started-at="2024-01-09T19:33:28 IST" finished-at="2024-01-09T19:33:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.framework.jira.tests.rest.TC001_Jira_CreateTicket@1176dcec]" name="setValues" is-config="true" duration-ms="0" started-at="2024-01-09T19:33:28 IST" finished-at="2024-01-09T19:33:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.framework.jira.tests.rest.TC001_Jira_CreateTicket@1176dcec]" name="setUpClass" is-config="true" duration-ms="103" started-at="2024-01-09T19:33:28 IST" finished-at="2024-01-09T19:33:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f03fba0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:com.framework.jira.tests.rest.TC001_Jira_CreateTicket@1176dcec]" name="startTestCase" is-config="true" duration-ms="6" started-at="2024-01-09T19:33:28 IST" finished-at="2024-01-09T19:33:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.framework.jira.tests.rest.TC001_Jira_CreateTicket@1176dcec]" name="beforeMethod" is-config="true" duration-ms="305" started-at="2024-01-09T19:33:28 IST" finished-at="2024-01-09T19:33:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createIncident(java.io.File)[pri:0, instance:com.framework.jira.tests.rest.TC001_Jira_CreateTicket@1176dcec]" name="createIncident" duration-ms="2857" started-at="2024-01-09T19:33:28 IST" data-provider="fetchData" finished-at="2024-01-09T19:33:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.\data\TC001_jira.JSON]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIncident -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.framework.jira.tests.rest.TC001_Jira_CreateTicket@1176dcec]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2024-01-09T19:33:31 IST" finished-at="2024-01-09T19:33:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="endResult()[pri:0, instance:com.framework.jira.tests.rest.TC001_Jira_CreateTicket@1176dcec]" name="endResult" is-config="true" duration-ms="176" started-at="2024-01-09T19:33:35 IST" finished-at="2024-01-09T19:33:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endResult -->
+      </class> <!-- com.framework.jira.tests.rest.TC001_Jira_CreateTicket -->
+      <class name="com.framework.jira.tests.rest.TC005_Jira_ChangeStatus">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.framework.jira.tests.rest.TC005_Jira_ChangeStatus@314c508a]" name="setValues" is-config="true" duration-ms="0" started-at="2024-01-09T19:33:28 IST" finished-at="2024-01-09T19:33:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.framework.jira.tests.rest.TC005_Jira_ChangeStatus@314c508a]" name="setUpClass" is-config="true" duration-ms="10" started-at="2024-01-09T19:33:33 IST" finished-at="2024-01-09T19:33:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f03fba0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:com.framework.jira.tests.rest.TC005_Jira_ChangeStatus@314c508a]" name="startTestCase" is-config="true" duration-ms="0" started-at="2024-01-09T19:33:33 IST" finished-at="2024-01-09T19:33:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.framework.jira.tests.rest.TC005_Jira_ChangeStatus@314c508a]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2024-01-09T19:33:33 IST" finished-at="2024-01-09T19:33:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ChangeJiraStatus(java.io.File)[pri:0, instance:com.framework.jira.tests.rest.TC005_Jira_ChangeStatus@314c508a]" name="ChangeJiraStatus" duration-ms="842" started-at="2024-01-09T19:33:33 IST" data-provider="fetchData" finished-at="2024-01-09T19:33:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.\data\TC005_jira.JSON]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeJiraStatus -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.framework.jira.tests.rest.TC005_Jira_ChangeStatus@314c508a]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2024-01-09T19:33:34 IST" finished-at="2024-01-09T19:33:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.framework.jira.tests.rest.TC005_Jira_ChangeStatus -->
+      <class name="com.framework.jira.tests.rest.TC002_Jira_UpdateTicket">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.framework.jira.tests.rest.TC002_Jira_UpdateTicket@21a947fe]" name="setValues" is-config="true" duration-ms="0" started-at="2024-01-09T19:33:28 IST" finished-at="2024-01-09T19:33:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.framework.jira.tests.rest.TC002_Jira_UpdateTicket@21a947fe]" name="setUpClass" is-config="true" duration-ms="6" started-at="2024-01-09T19:33:31 IST" finished-at="2024-01-09T19:33:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f03fba0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:com.framework.jira.tests.rest.TC002_Jira_UpdateTicket@21a947fe]" name="startTestCase" is-config="true" duration-ms="0" started-at="2024-01-09T19:33:31 IST" finished-at="2024-01-09T19:33:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.framework.jira.tests.rest.TC002_Jira_UpdateTicket@21a947fe]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2024-01-09T19:33:31 IST" finished-at="2024-01-09T19:33:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="updateJira(java.io.File)[pri:0, instance:com.framework.jira.tests.rest.TC002_Jira_UpdateTicket@21a947fe]" name="updateJira" duration-ms="890" started-at="2024-01-09T19:33:31 IST" data-provider="fetchData" finished-at="2024-01-09T19:33:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.\data\TC002_jira.JSON]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateJira -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.framework.jira.tests.rest.TC002_Jira_UpdateTicket@21a947fe]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2024-01-09T19:33:32 IST" finished-at="2024-01-09T19:33:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.framework.jira.tests.rest.TC002_Jira_UpdateTicket -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
