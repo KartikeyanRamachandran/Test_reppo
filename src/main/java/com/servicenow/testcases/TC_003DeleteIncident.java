@@ -33,7 +33,7 @@ public class TC_003DeleteIncident extends BaseMethods{
 		JsonPath jsonPath = response.jsonPath();
 		String incident_number = jsonPath.get("result.number"); 
 		System.out.println(incident_number);
-		System.out.println("hi");
+		System.out.println("hello");
 				
 		new Loginpage()
 		.enterCredentials()
