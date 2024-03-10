@@ -34,6 +34,7 @@ public class TC_003DeleteIncident extends BaseMethods{
 		String incident_number = jsonPath.get("result.number"); 
 		System.out.println(incident_number);
 		System.out.println("hi");
+		System.out.println("3rd commit");
 				
 		new Loginpage()
 		.enterCredentials()
