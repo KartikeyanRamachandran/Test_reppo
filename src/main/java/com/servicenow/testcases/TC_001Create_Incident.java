@@ -34,7 +34,7 @@ public class TC_001Create_Incident extends BaseMethods{
 		.enterShortDescription()
 		.clickSubmitButton()
 		.getTheIncident();
-		
+		//System.out
 		}
 	
 
