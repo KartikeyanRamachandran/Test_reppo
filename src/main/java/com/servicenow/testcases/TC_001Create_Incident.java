@@ -16,7 +16,7 @@ public class TC_001Create_Incident extends BaseMethods{
 		testcaseName="CreateIncident";
 		testDescription ="Test data with mandatory Field";
 		authors="karthi";
-		category="Non-Funtional";
+		category="Non-Funtional11";
 
 	
 	}
