@@ -15,7 +15,7 @@ public class TC_001Create_Incident extends BaseMethods{
 		excelFileName="CreateIncident";
 		testcaseName="CreateIncident";
 		testDescription ="Test data with mandatory Field";
-		authors="karthi";
+		authors="karthikeyan";
 		category="Non-Funtional";
 
 	
